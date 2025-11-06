@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        TF_VAR_gcp_project = "qwiklabs-gcp-XX-XXXXXXXXXXXX"
-        TF_VAR_bucket = "terraform-state-XXXXXX-XXXX-XXXXX"
+        TF_VAR_gcp_project = "qwiklabs-gcp-00-2cfc82924a64"
+        TF_VAR_bucket = "tf-remote-state-student_00_c05cc56c854d-4136-5053"
     }
     stages {
         stage('Terraform Init') {
